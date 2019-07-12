@@ -56,7 +56,7 @@ async function loadPostsCollection() {
         useNewUrlParser: true
     });
 
-    return client.db('vue-express').collection('posts');
+    return client.db('vue-express').collection('inventory');
 }
 
 module.exports = router;
